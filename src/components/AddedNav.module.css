@@ -1,0 +1,197 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&display=optional");
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&display=swap');
+
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  z-index: -1;
+}
+
+.img {
+  width: 100px;
+}
+
+.stickyText h1 {
+  padding: 0;
+  text-align: center;
+  font-family: "Anybody", sans-serif;
+  color: #1A73E8;
+  font-size: 5rem;
+  font-variation-settings: 'wght' 700;
+}
+
+
+h3 {
+  margin: 0;
+  text-align: start;
+  padding: 0;
+  font-family: "Anybody", sans-serif;
+  color: #7e1be0;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Anybody", sans-serif;
+  color: #7e1be0;
+  font-size: 5.5rem;
+  text-align: left;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+@media (max-width: 750px) {
+  .content {
+    width: 40%;
+  }
+}
+
+.contentPage {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+
+  .backButton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 25px 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    font-size: 16px;
+    outline: none;
+  }
+
+
+  
+  .backButton:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .backButton:active {
+    transform: scale(0.98);
+  }
+  
+  .backButton:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .icon {
+    color: #7e1be0;
+    font-size: 5.5rem;
+    text-align: left;
+  }
+/* text link to each page */
+.clickableText {
+  font-size: 90px;
+  width: 50%;
+  color: #FF6500;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Anybody", sans-serif;
+  font-size: 100px;
+font-variation-settings: 'wght' 700;
+
+ 
+}
+
+/* Target your specific text areas with high specificity */
+.scrollText {
+  font-family: "Anybody", sans-serif !important;
+  text-align: center;
+  font-variation-settings: 'wght' 400;
+  font-optical-sizing: auto;
+}
+
+
+.stickyText {
+  font-family: "Anybody", sans-serif !important;
+  max-width: 50%;
+  z-index: 1;
+}
+/*Fist layer- opening text*/
+p {
+  font-family: "Anybody", sans-serif !important;
+  font-size: 120px !important;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.endText{
+  color: #7e1be0;
+  width: 100%;
+  text-align: center;
+  font-family: "Anybody", serif;
+  font-optical-sizing: auto;
+  font-size: 100px;
+  font-variation-settings: 'wght' 500;
+  font-variation-settings: 'wdth' 60;
+  font-variation-settings: 'slnt' 1;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: .01em;
+
+  }
+
+
+  /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+/* .anybody-<uniquifier> {
+  font-family: "Anybody", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <width>: Use a value from 50 to 150
+
+.anybody-<uniquifier> {
+  font-family: "Anybody", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+} */
+
+
+
+
+

@@ -1,0 +1,11 @@
+.button{
+    background-color: #005797;
+    border: solid 2px #005797;
+    border-radius: 26px;
+    color: white;
+    font-size: .875rem;
+    font-weight: 600;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    text-decoration: none;
+}

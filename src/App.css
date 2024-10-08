@@ -1,0 +1,21 @@
+
+.wave:hover {
+  fill: #D45DA2; /* Change color on hover */
+  transition: fill 0.3s ease;
+}
+.display{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+  .wave {
+      animation: wave 1.5s infinite;
+      transform-origin: 70% 70%;
+  }
+
